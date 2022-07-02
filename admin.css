@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(238, 237, 209);
+}
+#listBox {
+    border-style: solid;
+    background-color:#ff0000;
+    width: 15%;
+    height: 2cm;
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-top: 150px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#totalBox {
+    border-style: solid;
+    background-color:#ff0000;
+    width: 35%;
+    height: 2cm;
+    margin-right: 20%;
+    margin-top: 150px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+#fetchBox {
+    border-style: solid;
+    background-color:#ff0000;
+    width: 35%;
+    height: 2cm;
+    margin-left: 20%;
+    margin-top: 150px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#fetchTotal {
+    display: flex;
+    margin-left: 350px;
+    margin-right: 300px;
+}

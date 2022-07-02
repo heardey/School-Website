@@ -1,0 +1,324 @@
+body {
+    background-image: url("images/school-image.jpg");
+    background-color: #f4f4f4;
+    background-repeat: no-repeat;
+    background-size:contain;
+    transition: background .5s;
+    position: relative;
+    
+}
+
+
+#school-icon {
+    background-color:#000000;
+    color: white;
+    text-align: right;
+    font-size: 20px;   
+}
+
+.all-head {
+    display: flex;
+}
+
+.olutofunmiheader {
+    font-size: 10px;
+    font-family: jokerman, Helvetica;
+    color: coral;
+    text-decoration: none;
+    line-height: 20px;
+    border: solid black;
+    background-color:#f4f4f4;
+    border-radius: 10px;
+} 
+
+#heading {
+    font-size: 30px;
+    margin-top: 70px;
+    text-align: center;
+    font-family:fantasy;
+    letter-spacing: 30px;
+    border: solid #000000;
+    background-color: #f4f4f4;
+}
+
+.groupofschools {
+    font-size: 15px;
+    font-family: fantasy;
+    color: black;
+    text-align: center;
+}
+
+.navbar {
+    font-size: 125%; 
+    text-decoration: none;
+    color: rgb(156, 40, 40);
+    padding: 8px;
+    display: flex;
+    margin-left: 150px;
+}
+
+.navbar a:hover {
+    color: red;
+}
+
+
+.links {
+    margin-left: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    border: solid;
+    background-color:coral;
+    border-radius: 5px;
+    font-family: fantasy;
+}
+
+#search {
+    width: 150px;
+    height: 30px;
+    text-align: right;
+    color: #000000;
+    border: solid;
+    background-color: #f4f4f4;
+    margin-left: 250px;
+    border-radius: 5px;
+}
+
+        
+.white-black-font {
+    color: white;
+    background-color: #000000;
+    font-family: 'sthupo', 'Lucida Sans Regular';
+}
+
+.large-image {
+    width: 1500px;
+    height: 700px;
+}
+
+.thin-coral-border {
+    border-color: coral; 
+    border-width:10px; 
+    border-style:solid;
+    border-radius: 10px;
+}
+
+.thin-coral-border2 {
+    border-color: coral; 
+    border-width:10px; 
+    border-style:solid;
+
+}
+
+    
+.coral-text {
+    color: coral;
+}
+
+
+.text-align {
+    text-align: center;    
+}
+
+
+#lowertext {
+    background-color:#0000ff;
+    color: white;
+    border-color: coral;
+    border-width: 10px;
+    border-style: solid;
+    font-size: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center ;
+    margin-top: 50%;
+    margin-left: -10%;
+    margin-right: -10%;
+}
+
+#about-text {
+    font-size: 100%;
+    text-align: left;
+    color: white
+}
+
+
+.row {
+    display: flex;
+    margin-top: 10%;
+    padding: -70%;
+}
+
+.column {
+    flex: 33.3%;
+    padding: 5px;
+    margin-top: -10px;
+}
+
+.leftpicture {
+    float: left;
+
+}
+
+.rightpicture {
+    float:right
+}
+.margin-left {
+    margin-left:-10px;
+}
+
+.form-group {
+    line-height: 1.5cm;
+    color: white;
+    margin-left: 30%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display:grid;
+    
+}
+
+.form-group2 {
+    line-height: 1.5cm;
+    margin-left: 10px;
+}
+
+
+.headeportal {
+    margin-left: 50px;
+    text-align: center;
+
+}
+
+#galleryimages {
+    width: 520px;
+
+}
+
+#largefootborder {
+    background-color: gray;
+    border-radius: 5px;
+    border-color: indianred;
+    background-size: 70px;
+    display: flex;
+    padding: 40px;
+    margin-left: -20px;
+    margin-right: -20px;
+    text-align: center;
+    
+}
+
+.largefoottext {
+    text-align: center;
+    margin-left: 70px;
+    color: white;
+}
+
+#input {
+    width: 41%;
+    height: 20%;
+    border-color: coral;
+}
+
+.input2 {
+    margin-left: 70px;
+}
+
+.welcomeaddress {
+    display: flex;
+    margin-left: 60px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.addresstext {
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align:justify;
+    padding: 40px;
+}
+
+.footing {
+    display: flex;
+    margin-left: -20px;
+    margin-right: -20px;
+    text-align: center;
+    background-color:#000000;
+    list-style: none;
+    color:white;
+    line-height: 0.7cm;
+    padding: 50px;
+    
+}
+
+.footnav {
+    margin-left: 70px;
+    text-align: center;
+
+}
+
+.footnav a:hover { 
+    color: white;
+    
+}
+
+#footlist {
+    text-decoration: none;
+    list-style: none;
+    color:coral;
+
+}
+
+.olutofunmifooter {
+    font-size: 20px;
+    font-family: jokerman, Helvetica;
+    color: white;
+    line-height: 20px;
+    border: solid blue;
+    background-color: teal;
+    background-size: 5px;
+    border-radius: 10px;
+    line-height: 1cm;
+    
+
+}
+
+.groupofschoolsfooter {
+        font-size: 15px;
+        font-family: fantasy;
+        color: coral;
+        text-align: center;
+}
+
+.allaboutpage {
+    display: flex;
+}
+
+.aboutpage {
+    text-align: center;
+    margin-left: 70px;
+}
+
+#faq{
+    font-size:20px;
+    color: coral;
+}
+
+.allportal {
+    display: flex;
+}
+
+.img1 {
+    display: flex;
+}
+
+.img2 {
+    display: flex;
+}
+
+#cardholder {
+    line-height: 0%;
+    margin-left: 130px;
+}
+#creditType {
+    margin-left: 130px;
+}

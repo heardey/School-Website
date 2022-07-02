@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script src ="script.js"></script>
+    <link rel="stylesheet" href="admin.css">
+
+</head>
+<body>
+    <h1 style="text-align: center;">Admin Control</h1>
+    <div>
+        <div id="listBox" onclick="transactionList()">Transaction List</div>
+
+        <div id="fetchTotal">
+            <div id="totalBox" onclick="transactionTotal()">Transaction Total
+                <div>
+                    <p id="totalTransaction"></p>
+                    <p id="totalVolume"></p>
+                    <p id="pendingTransfers"></p>
+                </div>
+            </div>
+            <a href="fetchtransaction.html" id="fetchBox">Fetch Transaction</a>
+        </div>
+    </div>
+    
+</body>
+</html>
